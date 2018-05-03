@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+    <body>
+        
+      <!--  <a href="Index.html">Povrat na pocetnu</a>-->
+  
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                <header><h1>Registration Form</h1></header>
+                <a href="index.html">Back to main</a><br><br>
+        <!--Use GET not POST-->
+            <form method="GET">
+               <div class="firstName"> First Name:</div><div class="input"> <input type="text" name="firstName" required><br></div>
+               <div class="lastName"> Last Name: </div><div class="input"><input type="text" name="lasttName" ><br></div>
+               <div class="email">E mail: </div><div class="input"><input type="email" name="Email" required><br></div>
+               <div class="pass"> Password : </div><div class="input"> <input type="password" name="password" min="6"required><br></div>
+               <div class="Birthday"> Birthday: </div><div class="input"><input type="date" name="birthday"><br></div>
+               <div class="gen">Gender: <br>
+               <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br></div>
+                <div class="pets"> Pets: <input type="checkbox"checked name="pets">Yes, I do have<br></div>
+                <div class="cars"> Cars: <select name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="golf">Golf</option>
+                    <option value="Nissan">Nissan</option>
+                </select><br></div>
+                <div class="submit"> <input type="submit" name="submit" value="Potvrdi unos">
+                 <input type="reset" name="reset" value="Ponisti unos"></div>
+        </form>
+
+    </div>
+   <div class="col-2" id="col2">
+          <p id="p2text">Thank you for parcipation. Your effort will be rewarded.God bless you and your dearest ones!</p>
+        </div>
+    </div>
+    </div>
+
+    </body>
+</html>  

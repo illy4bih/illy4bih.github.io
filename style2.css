@@ -1,0 +1,33 @@
+html{
+        width: 100%;
+        height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start ;
+    align-items: center;
+    text-align: left;
+    background-image:url(https://pre00.deviantart.net/4af0/th/pre/f/2013/132/a/e/forest_stock_40_by_sed_rah_stock-d6503dc.jpg);
+    background-size: cover;
+    /*background-color: rgb(75, 150, 112);*/
+    text-decoration: none;
+}
+h1{
+    font-weight: bolder;
+    color:whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.col-10{
+    border:2px dashed rgb(214, 177, 108);
+    color:wheat;
+}
+#col2{
+    text-align: center;
+    margin:0px;
+    height:30%;
+    width:100%;
+}
