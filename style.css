@@ -37,11 +37,7 @@ h1{
     color:wheat;
     justify-content: center;
     align-items:center;
-
-}
-#avion:hover{
-    transform: rotate(180deg);
-    opacity:0.9;
+    position:relative;
 }
 p{
     text-align: center;
@@ -51,11 +47,7 @@ p{
 #test-p{
     border-top: 2px dashed wheat;
 }
-#test-p:hover{
-    background-color: rgb(172, 151, 58);
-    border:4px solid rgba(22, 144, 104);
-    transform:scale(1.2);
-}
+
 .btn:hover{
     color:rgb(172, 151, 58); 
     background-color: rgb(41, 121, 80)!important;
