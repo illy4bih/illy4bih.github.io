@@ -1,55 +1,65 @@
-html {
-  width: 100%;
-  height: 100%; 
-}
-
-
-body{
-    display:flex;
-    transition:all 1.2s;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(https://stores.org/wp-content/uploads/2017/07/blue_skies.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%; 
-}
-.container{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.jumbotron { 
+    background-color: rgb(19, 22, 150); /* Orange */
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 25px;
 }
 h1{
-    color: rgb(175, 206, 238);
-    border-bottom: 5px double rgba(119, 166, 214, 0.6);
-    text-align: center;
+    text-transform: uppercase;
 }
-#prvi-paragraf{
-    border-bottom: 2px solid wheat;
+.bg-grey {
+    background-color: #f6f6f6;
 }
-#avion{
-    transition:all 1.5s;
-    width:400px;
-    height:400px;
-    opacity: 0.05;
-    color:wheat;
-    justify-content: center;
-    align-items:center;
-    position:relative;
+.container-fluid {
+    padding: 60px 50px;
 }
-p{
-    text-align: center;
-    color: rgb(182, 207, 234);
-    text-align: center;
+.logo {
+    font-size: 200px;
 }
-#test-p{
-    border-top: 2px dashed wheat;
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+#image1{
+    height: 240px;
+    width: 240px;
+}
+#image2{
+    height:300px;
+    width:200px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
 }
 
-.btn:hover{
-    color:rgb(172, 151, 58); 
-    background-color: rgb(41, 121, 80)!important;
-    transform: scale(1.1);
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
 }
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: red;
+}
+    .carousel-indicators li {
+        border-color: red;
+    }
+    
+    .carousel-indicators li.active {
+        background-color: red;
+    }
+    
+    .item h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        font-weight: 400;
+        font-style: italic;
+        margin: 70px 0;
+    }
+    
+    .item span {
+        font-style: normal;
