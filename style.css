@@ -159,9 +159,8 @@ h1{
     justify-content: center;
 } 
 #onama1{
-    text-align: left;
-    text-justify: distribute;
     justify-content: center;
+    align-items: center;
 }
 
 #pClan{
