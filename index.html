@@ -12,19 +12,37 @@
 <body body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <div class="jumbotron text-center">
         <h1>Gorska Služba Spašavanja Novi Grad Sarajevo</h1> 
-        <p>Osposobljeni i obučeni za Vašu sigurnost</p> 
-              <form class="form-inline">
-                    <div class="input-group">
-                      <input type="email" class="form-control" size="50" placeholder="Email adresa  " required>
-                      <div class="input-group-btn">
-                        <button type="button" class="btn btn-danger">Kontaktiraj nas</button><br>
-                      </div>
-                    </div>
-                    <div class="popup" onmouseover="myFunction()"><a href="https://www.facebook.com/gssng/" target="_blank"><img src="facebook_square-512.png" height="40px"width="40px"></a>
-                        <span class="popuptext" id="myPopup">Prati nas na drustvenim mrezama</span>
-                      </div>
-                       
-                </form>
+        <p>Osposobljeni i obučeni za Vašu sigurnost</p>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Kontakt u hitnim slucajevima</button>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Treba Vam hitan kontakt?</h4>
+            </div>
+            <div class="modal-body">
+             <p id="modalText">Nalazite se u vanrednoj situaciji, situaciji gdje je Vama ili nekom u Vasoj okolini ugrozen zivot. <strong>Pozovite 122-Hitne sluzbe</strong> ili direktno <strong>062 112 700-GSS Novi Grad Sarajevo </strong>
+                 Dok cekate pomoc, par uputa :
+                 <ul id="modalTextList">
+                     <li>Ostanite pribrani i ne panicite. Panikom samo pogorsavata situaciju.</li>
+                     <li>Opisite sto detaljnije situaciju, okruzenje i uslove u kojima se nalazite (vremenske nepogode, kliziste, poplava, pozicionirani na visini)</li>
+                     <li>Ukoliko ste povrijedjeni pokusajte mirovati i ako je moguce pruzite prvu pomoc.Ukoliko je neko iz Vase okoline povrijedjen, pruzite prvu pomoc ali vodite racuna o svojoj bezbijednosti.</li>
+                     <li>Cuvajte resurse, pocevsi od hrane i pica. Racionalno koristite mobilni telefon kako bi Vasa baterija duze trajala te kako biste imali stalni kontakt sa hitnim sluzbama</li>
+                     <li>Ukoliko je zbog odredjenih uslova vidljivost losa, pokusajte istaknuti svoj polozaj na neki nacin, vodeci pri tome racuna o vlastitoj bezbijednosti</li>
+                     <li>Ne gubite nadu.Ukoliko ste nas kontaktirali, <strong>sigurno dolazimo po Vas i srecno se vracate kuci.</strong></li>
+                 </ul>
+             </p>
+             </div>
+             <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+             </div>
+            </div>
+            </div>
+            </div> 
+            <div class="popup" onmouseover="myFunction()"><a href="https://www.facebook.com/gssng/" target="_blank"><img src="facebook_square-512.png" height="40px"width="40px"></a>
+              <span class="popuptext" id="myPopup">Prati nas na drustvenim mrezama</span>
+            </div> 
     </div>
 
             
@@ -37,7 +55,7 @@
               <h2>O nama</h2>
               <h4>Osnovne informacije</h4> 
               <p>Gorska sluzba spasavanja opcine Novi Grad Sarajevo jeste jedina sluzba ove vrste na prostoru ove opcine.Djeluje i na prostoru drugih opstina</p>
-              <button class="btn btn-default btn-lg">Pridruzi nam se</button>
+              <a href="aboutUs.html"><button class="btn btn-default btn-lg">Saznaj vise</button></a>
             </div>
                 </div>
               </div>
@@ -245,15 +263,15 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span> 
                         </button>
-                        <a class="navbar-brand" href="#logo"><img src="logo-min.jpg" height="30px" width="30px"></a>
+                        <a class="navbar-brand" href="#myPage"><img src="logo-min.jpg" height="30px" width="30px"></a>
                       </div>
                       <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="#about">O NAMA</a></li>
+                          <li><a href="aboutUs.html">O NAMA</a></li>
                           <li><a href="#ourvalue">NASE VRIJEDNOSTI</a></li>
                           <li><a href="#activities">USLUGE I AKTIVNOSTI</a></li>
                           <li><a href="#cause">ZNACAJNE AKTIVNOSTI</a></li>
-                          <li><a href="#contact">KONTAKT</a></li>
+                          <li><a href="contact.html">KONTAKT</a></li>
                         </ul>
                       </div>
                     </div>

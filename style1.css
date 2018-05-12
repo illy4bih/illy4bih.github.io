@@ -152,9 +152,9 @@ h1{
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
-} 
+}   
 #modalText,#modalTextList{
     color:black;
     text-align: left;
     justify-content: center;
-}  
+}
