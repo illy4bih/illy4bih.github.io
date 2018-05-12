@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pristupnica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" text="test/css" href="style.css">
+</head>
+<body>
+        <div class="jumbotron text-center">
+                <h1>Gorska Služba Spašavanja Novi Grad Sarajevo</h1> 
+                <p>Osposobljeni i obučeni za Vašu sigurnost</p> 
+                    <div class="popup" onmouseover="myFunction()"><a href="https://www.facebook.com/gssng/" target="_blank"><img src="facebook_square-512.png" height="40px"width="40px"></a>
+                    <span class="popuptext" id="myPopup">Prati nas na drustvenim mrezama</span>
+                </div>
+        </div>
+    <div id="beMember" class="container-fluid text-center">
+            <div class="col-sm-8">
+                <h3>Uclani se i ti</h3>
+                    <p>Pomaganje drugima ti pricinjava radost? Ne bojis se visine ili opasnih situacija? Zelis biti dio mladog tima koji je 24h dostupan i na usluzi gradjanina? Pohadjanje specijalistickih obuka ti ne predstavlja nikakav problem?  Onda je ovo pravo mjesto za tebe.<br><strong>Prikljuci se i ti</strong></p>
+                  </div>
+    </div>
+    <div class="container-fluid text-center">
+            <h2>Pristupnica</h2>
+            <form class="form-horizontal" method="POST">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Ime:</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" id="name" placeholder="Ime" name="name"required>
+                </div>
+              </div>
+              <div class="form-group">
+                  <label class="control-label col-sm-2" for="surname">Prezime:</label>
+                  <div class="col-sm-4">
+                      <input type="text" class="form-control" id="surname" placeHolder="Prezime" name="name" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="control-label col-sm-2" for="birthdate">Datum rodjenja</label>
+                  <div class="col-sm-4">
+                      <input type="date" class="form-control" id="birthdate" name="birthdate">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">E mail</label>
+                  <div class="col-sm-4">
+                      <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="control-label col-sm-2" for="phonenumber">Kontakt telefon</label>
+                  <div class="col-sm-4">
+                      <input type="text" class="form-control" id="phone" placeholder="Broj kontakt telefona">
+                  </div> 
+              </div>
+              <div class="form-group">
+                  <label class="control-label col-sm-2" for="getInvolved">Zelim biti punopravni clan</label>
+                  <div class="col-sm-4">
+                      <input type="checkbox" class="form-control" id="getInvolved" onclick="myFunction3()">Da</div>
+              </div>
+              <div class="form-group">
+                    <label class="control-label col-sm-2" id="specCoursesLabel" for="specCourses" style="display:none">Posjedujem odredjena predznanja i certifikate</label>
+                    <div class="col-sm-4">
+                        <input type="checkbox" id="myCheck" onclick="myFunction4()" style="display:none"><input type="text" class="form-control" id="addCourses" placeholder="Navedite certifikate" style="display:none">
+                    </div>
+                </div>
+              <div class="form-group">
+                  <label class="control-label col-sm-2" id="specSchoolLabel" for="specSchooLabel" style="display:none">Trenutno sam zaposlen-a/Trenutno se skoluje u ustanovi srodne djelatnosti</label>
+                  <div class="col-sm-4">
+                      <input type="checkbox" id="myCheck1" onclick="myFunction5()" style="display:none"><input type="text" class="form-control" id="addSchool" placeholder="Navedite certifikate" style="display:none">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="control-label col-sm-2" for="comment">Dodatne informacije</label>
+                  <div class="col-sm-4">
+                      <textarea class="form-control" rows="5" id="comment"placeholder="Napisite ukratko o sebi, s ciljem da vas bolje upoznamo"></textarea>
+                  </div>
+              </div>
+              <div class="form-group"> 
+                    <div class="col-sm-offset-2 col-sm-4">
+                      <button type="submit" class="btn btn-default"id="btnSubmit">Potvrdi</button>
+                      <button type="reset" class="btn btn-default" id="btnReset">Obrisi</button>
+                    </div>
+                  </div>
+
+
+
+    </form>
+
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="logo-min.jpg" height="30px" width="30px"></a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="aboutUs.html">O NAMA</a></li>
+                      <li><a href="#ourvalue">NASE VRIJEDNOSTI</a></li>
+                      <li><a href="#activities">USLUGE I AKTIVNOSTI</a></li>
+                      <li><a href="#cause">ZNACAJNE AKTIVNOSTI</a></li>
+                      <li><a href="contact.html">KONTAKT</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>   
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+    
+</body>
+</html>

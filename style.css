@@ -157,4 +157,20 @@ h1{
     color:black;
     text-align: left;
     justify-content: center;
-}  
+} 
+#onama1{
+    text-align: left;
+    text-justify: distribute;
+    justify-content: center;
+}
+
+#pClan{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#beMember{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
