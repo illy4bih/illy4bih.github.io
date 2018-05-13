@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kontakt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style2.css" />
+
+</head>
+<body id="gallery">
+ 
+            <div class="jumbotron text-center">
+                <video autoplay muted loop id="videoBackground">
+                        <source src="img/video_gallery.mp4" type="video/mp4">
+                      </video>
+
+                      <div class="content">
+                            <h1 id="labud">Gorska Služba Spašavanja Novi Grad Sarajevo<br><small>Opremljeni i obuceni za Vasu sigurnost</small></h1>
+                            <button id="myBtn" onclick="myFunction()">Pause</button>
+                      </div>
+                            <div class="popup" onmouseover="myFunction()"><a href="https://www.facebook.com/gssng/" target="_blank"><img src="img/facebook_square-512.png" height="40px"width="40px"></a>
+                              <span class="popuptext" id="myPopup">Prati nas na drustvenim mrezama</span>
+                            </div>
+            </div>
+
+            <div id="cause" class="container-fluid text-center bg-grey">
+                    <h2>Znacajne aktivnosti</h2>
+                            <h4>Od mnogobrojnih aktivnosti, izdvojili bi sljedece </h4>
+                            <div class="row text-center">
+                              <div class="col-sm-4">
+                                <div class="thumbnail">
+                                  <img id="img1Aktivnosti" src="img/TIKA Vjezba.jpg"  alt="Tika-Vjezba">
+                                  <div class="overlay">
+                                    <div class="text">Dana x-x, 2018 godine, clanovi GSS Novi Grad Sarajevo i CZ FBiH su uz saradnju sa TIKA i ANSAROM(Turski GSS) sproveli trodnevnu obuku na temu "xx tema" Na kraju ove svecanosti, dodjeljeni su i odredjeni certifikati</div>
+                                  </div>
+                                  <p><strong>Bjelasnica</strong></p>
+                                  <p>Obuka sa TIKA i ANSAROM</p>
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                <div class="thumbnail">
+                                  <img src="img/Potraga1.jpg" alt="potraga-1">
+                                    <div class="overlay">
+                                      <div class="text">Pripadnici GSS Novi Grad Sarajevo su aktivno ucestovali u potrazi za tjelima tragicno nastradalih mladica u Sarajevu</div>
+                                    </div>
+                                  <p><strong>Sarajevo</strong></p>
+                                  <p>Potraga za tragicno nastradalim mladicima</p>
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                <div class="thumbnail">
+                                  <img src="img/mars-mira-2017.jpg" alt="Mars mira">
+                                  <div class="overlay">
+                                    <div class="text">Pripadnici GSS Novi Grad Sarajevo su aktivno ucestovali u obezbjedjenju Marsa mira u Srebrenici</div>
+                                  </div>
+                                  <p><strong>Srebrenica</strong></p>
+                                  <p>Podrska i obezbjedjenje aktivnosti Mars mira u Srebrenici 2017 god.</p>
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                    <div class="thumbnail">
+                                        <img src="img/certifikacija-gorski-medicinar.jpg" alt="gorskiMedicinar">
+                                        <div class="overlay">
+                                          <div class="text">U tom i tom mjesecu 2018, nasi pripadnici su ucestvovali u specijalistickoj obuci pod nazivom "gorska medicina" i tom prilikom smo postali bogatiji za jos 3 certificirana gorska medicinara. </div>
+                                        </div>
+                                          <p><strong>Mostar</strong></p>
+                                          <p>Certifikacija za gorskog</p>
+                                        </div>
+                                      </div>
+                              <div class="col-sm-4">
+                                    <div class="thumbnail">
+                                      <img src="img/rad-sa-najmladjim.jpg" alt="najmladji1">
+                                      <div class="overlay">
+                                        <div class="text">Ovo je samo test i dobro ide za sad</div>
+                                      </div>
+                                      <p><strong>Mojmilo</strong></p>
+                                      <p>Rad sa najmladjim</p>
+                                    </div>
+                                  </div>
+                                <div class="col-sm-4">
+                                    <div class="thumbnail">
+                                        <img src="img/rad-sa-najmladjim1.jpg" alt="najmladji2">
+                                        <div class="overlay">
+                                          <div class="text">Ovo je samo test i dobro ide za sad verzija 2</div>
+                                        </div>
+                                          <p><strong>Hipodrom Sarajevo</strong></p>
+                                          <p>Rad sa najmladjim</p>
+                                        </div>
+                                    </div>
+                                 <div class="col-sm-4">
+                                    <div class="thumbnail">
+                                        <img src="img/rad-sa-najmladjim2.jpg" alt="najmladji3">
+                                        <div class="overlay">
+                                          <div class="text">Ovo je samo test i dobro ide za sad verzija 3</div>
+                                        </div>
+                                            <p><strong>Sarajevo</strong></p>
+                                            <p>Rad sa najmladjim</p>
+                                    </div>
+                                </div>
+                          </div>
+ 
+
+                  <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                          <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span> 
+                            </button>
+                            <a class="navbar-brand" href="index.html"><img src="img/logo-min.jpg" height="30px" width="30px"></a>
+                          </div>
+                          <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                              <li><a href="aboutUs.html">O NAMA</a></li>
+                              <li><a href="aktuelnosti.html">AKTUELNOSTI</a></li>
+                              <li><a href="gallery.html">GALERIJA</a></li>
+                              <li><a href="contact.html">KONTAKT</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>   
+
+                            <footer class="container-fluid text-center">
+                                                <p>Made by Adi </p> 
+                                    </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
