@@ -1,5 +1,5 @@
 .jumbotron { 
-    background-color: rgb(19, 22, 150); /* Orange */
+    background-color: rgb(19, 22, 150);
     color: #ffffff;
     text-align: center;
     padding: 100px 25px;
@@ -155,7 +155,7 @@ h1{
 } 
 #modalText,#modalTextList{
     color:black;
-    text-align: left;
+    text-align: justify;
     justify-content: center;
 } 
 #onama1{
@@ -185,4 +185,7 @@ h1{
     padding-top: 1%;
     padding-bottom:2%;
     float: left; 
+}
+#ourvaluetxt{
+    text-align: justify;
 }

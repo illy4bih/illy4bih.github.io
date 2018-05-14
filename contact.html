@@ -16,7 +16,7 @@
         <div class="jumbotron text-center">
                 <h1>Gorska Služba Spašavanja Novi Grad Sarajevo</h1> 
                 <p>Osposobljeni i obučeni za Vašu sigurnost</p>
-                <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Kontakt u hitnim slucajevima</button>
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal" onclick="getLocation()">Kontakt u hitnim slucajevima</button>
                 <div id="myModal" class="modal fade" role="dialog">
                     <div class="modal-dialog">
                     <div class="modal-content">
@@ -83,7 +83,14 @@
                         </div> 
                       </div>
                     </div>
-                  </div> 
+                  </div>
+                  <div id="contact" class="container-fluid bg-grey">
+                      <h2 class="text-center">Vasa lokacija</h2>
+                      <div class="row">
+                        <div class="col-sm-5"> 
+                            <div id="mapholder"></div>
+                            </div>
+                            </div>
 
                   <nav class="navbar navbar-default navbar-fixed-top">
                         <div class="container">
