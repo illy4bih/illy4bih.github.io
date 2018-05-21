@@ -1,5 +1,5 @@
 .jumbotron { 
-    background-color: rgb(19, 22, 150); /* Orange */
+    background-color: rgb(19, 22, 150);
     color: #ffffff;
     text-align: center;
     padding: 100px 25px;
@@ -155,13 +155,12 @@ h1{
 } 
 #modalText,#modalTextList{
     color:black;
-    text-align: left;
+    text-align: justify;
     justify-content: center;
 } 
 #onama1{
-    text-align: left;
-    text-justify: distribute;
     justify-content: center;
+    align-items: center;
 }
 
 #pClan{
@@ -173,4 +172,20 @@ h1{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+.page-header{
+    margin-top:0;
+}
+.panel-body{
+    padding-top:0; 
+    text-align: justify;   
+}
+.featuredImg{
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom:2%;
+    float: left; 
+}
+#ourvaluetxt{
+    text-align: justify;
 }

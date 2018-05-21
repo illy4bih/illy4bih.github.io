@@ -101,14 +101,12 @@ h1{
     transform: scale(1.4);
 }
 
-/* Popup container */
 .popup {
     position: relative;
     display: inline-block;
     cursor: pointer;
 }
 
-/* The actual popup (appears on top) */
 .popup .popuptext {
     visibility: hidden;
     width: 160px;
@@ -124,7 +122,6 @@ h1{
     margin-left: -80px;
 }
 
-/* Popup arrow */
 .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -136,14 +133,12 @@ h1{
     border-color: #555 transparent transparent transparent;
 }
 
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 0.5s;
     animation: fadeIn 0.5s
 }
 
-/* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
     to {opacity: 1;}
@@ -155,6 +150,6 @@ h1{
 }   
 #modalText,#modalTextList{
     color:black;
-    text-align: left;
+    text-align: justify;
     justify-content: center;
 }

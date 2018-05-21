@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,11 +10,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" text="test/css" href="style.css">
 </head>
-<body>
+<body id="bMemeber">
         <div class="jumbotron text-center">
                 <h1>Gorska Služba Spašavanja Novi Grad Sarajevo</h1> 
                 <p>Osposobljeni i obučeni za Vašu sigurnost</p> 
-                    <div class="popup" onmouseover="myFunction()"><a href="https://www.facebook.com/gssng/" target="_blank"><img src="facebook_square-512.png" height="40px"width="40px"></a>
+                    <div class="popup" onmouseover="myFunction()"><a href="https://www.facebook.com/gssng/" target="_blank"><img src="img/facebook_square-512.png" height="40px"width="40px"></a>
                     <span class="popuptext" id="myPopup">Prati nas na drustvenim mrezama</span>
                 </div>
         </div>
@@ -24,9 +24,9 @@
                     <p>Pomaganje drugima ti pricinjava radost? Ne bojis se visine ili opasnih situacija? Zelis biti dio mladog tima koji je 24h dostupan i na usluzi gradjanina? Pohadjanje specijalistickih obuka ti ne predstavlja nikakav problem?  Onda je ovo pravo mjesto za tebe.<br><strong>Prikljuci se i ti</strong></p>
                   </div>
     </div>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center" method="POST">
             <h2>Pristupnica</h2>
-            <form class="form-horizontal" method="POST">
+            <form class="form-horizontal">
               <div class="form-group">
                 <label class="control-label col-sm-2" for="name">Ime:</label>
                 <div class="col-sm-4">
@@ -54,7 +54,7 @@
               <div class="form-group">
                   <label class="control-label col-sm-2" for="phonenumber">Kontakt telefon</label>
                   <div class="col-sm-4">
-                      <input type="text" class="form-control" id="phone" placeholder="Broj kontakt telefona">
+                      <input type="text" class="form-control" id="phone" placeholder="Broj kontakt telefona" required>
                   </div> 
               </div>
               <div class="form-group">
@@ -100,21 +100,25 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span> 
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="logo-min.jpg" height="30px" width="30px"></a>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo-min.jpg" height="30px" width="30px"></a>
                   </div>
                   <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                       <li><a href="aboutUs.html">O NAMA</a></li>
-                      <li><a href="#ourvalue">NASE VRIJEDNOSTI</a></li>
-                      <li><a href="#activities">USLUGE I AKTIVNOSTI</a></li>
-                      <li><a href="#cause">ZNACAJNE AKTIVNOSTI</a></li>
+                      <li><a href="aktuelnosti.html">AKTUELNOSTI</a></li>
+                      <li><a href="gallery.html">GALERIJA</a></li>
                       <li><a href="contact.html">KONTAKT</a></li>
                     </ul>
                   </div>
                 </div>
               </nav>   
 
-
+              <footer class="container-fluid text-center">
+                <a href="#bMember" title="To Top">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                        </a>
+                        <p>Made by Adi </p> 
+                        </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
