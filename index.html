@@ -1,260 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>GSS Novi Grad Sarajevo</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" text="test/css" href="style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GSS Novi Grad Sarajevo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
 </head>
-<body body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <div class="jumbotron text-center bgimg-1 font-pozadina">
-        <div class="font-pozadina">
-          <h1>Gorska Služba Spašavanja Novi Grad Sarajevo</h1> 
-        <p >Osposobljeni i obučeni za Vašu sigurnost</p></div>
-        <!--<button type="button" class="btn btn-danger btn-lg " data-toggle="modal" data-target="#myModal">Kontakt u hitnim slucajevima</button>-->
-        <div id="myModal" class="modal fade " role="dialog">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Treba Vam hitan kontakt?</h4>
-            </div>
-            <div class="modal-body">
-             <p id="modalText">Nalazite se u vanrednoj situaciji, situaciji gdje je Vama ili nekom u Vasoj okolini ugrozen zivot. <strong>Pozovite 122-Hitne sluzbe</strong> ili direktno <strong>062 112 700-GSS Novi Grad Sarajevo </strong>
-                 Dok cekate pomoc, par uputa :
-                 <ul id="modalTextList">
-                     <li>Ostanite pribrani i ne panicite. Panikom samo pogorsavata situaciju.</li>
-                     <li>Opisite sto detaljnije situaciju, okruzenje i uslove u kojima se nalazite (Licni podatci, stanje terena, neke poznate markere ili lokacije i sl.)</li>
-                     <li>Ukoliko ste povrijedjeni pokusajte mirovati i ako je moguce pruzite prvu pomoc.Ukoliko je neko iz Vase okoline povrijedjen, pruzite prvu pomoc ali vodite racuna o svojoj bezbijednosti.</li>
-                     <li>Cuvajte resurse, pocevsi od hrane i pica. Racionalno koristite mobilni telefon kako bi Vasa baterija duze trajala te kako biste imali stalni kontakt sa hitnim sluzbama</li>
-                     <li>Ukoliko je zbog odredjenih uslova vidljivost losa, pokusajte istaknuti svoj polozaj na neki nacin, vodeci pri tome racuna o vlastitoj bezbijednosti</li>
-                     <li>Ne gubite nadu.Ukoliko ste nas kontaktirali, <strong>sigurno dolazimo po Vas i srecno se vracate kuci.</strong></li>
-                 </ul>
-             </p>
-             </div>
-             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
-             </div>
-            </div>
-            </div>
-            </div> 
-            <div class="popup" ><a href="https://www.facebook.com/gssng/" target="_blank"><img src="img/facebook_square-512.png" height="40px"width="40px"></a>
-              <span class="popuptext" id="myPopup">Prati nas na drustvenim mrezama</span>
-            </div> 
-    </div>
-
-            
-    <div id="about" class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
-                <img id="image1" src="img/logo-min.jpg"alt="logo"> 
-              </div>
-            <div class="col-sm-8">
-              <h2>O nama</h2>
-              <h4>Osnovne informacije</h4> 
-              <p>Gorska sluzba spasavanja opcine Novi Grad Sarajevo jeste jedina sluzba ove vrste na prostoru ove opcine.Djeluje i na prostoru drugih opstina</p>
-              <a href="aboutUs.html"><button class="btn btn-default btn-lg">Saznaj vise</button></a>
-            </div>
-                </div>
-              </div>
-
-        <div id="ourvalue" class="container-fluid bg-grey bgimg-2 font-white font-pozadina">
-            <div class="row">
-                <div class="col-sm-4">
-                        <img id="image2" src="img/logo1-min.jpg"alt="logo"> 
-                    </div>
-                        <div id="ourvaluetxt" class="col-sm-8">
-                  <div class="pozadina-za-text"><h2>Nase Vrijednosti</h2>
-                  
-                  <h4><strong>SVI ZASLUZUJU SIGURNOST:</strong> Bez obzira na rasu,naciju ili vjeru, svi gradjani zasluzuju siguran povratak svojim najdrazim.</h4> 
-                  <p><strong>Odlucnost i odgovornost:</strong> Odlucni odgovoriti na svaki postavljeni zadatak, nasa odgovornst je spasiti i dovesti Vas na sigurno</p>
-                  <p><strong>Sigurnost:</strong> Prilikom spasavanja ili drugih aktivnosti, konstantno mislimo kako na Vasu, tako i na nasu sigurnost</p>
-                  <p><strong>Obucenost:</strong> Tim visoko obucenih profesionalaca sa svim potrebnim znanjem i certifikatima za vasu bezbijednost</p>
-                  <p><strong>Spremnost:</strong> Spremni u svakom trenutku uspjesno odgovoriti na bilo kakav zadatak i uspjesno rijesiti bilo kakvu situaciju</p>
-                  <p><strong>Interoperabilnost:</strong> Bilo u akciji ili na treningu, usko saradjujemo sa vojskom, policijom, vatrogascima, hitnom pomoci,MAC-om, civilnom zastitom te ostalim javnim i privatnim preduzecima </p>
-                <p><strong>Profesionalnost:</strong> U svakoj situaciji zadrzati profesionalnost, postovati Vas dignitet i raditi na opste zadovoljstvo gradjana</p>
-                <p><strong>Orjentirani zajednici:</strong> U svojim aktivnostima smo potpuno transparetni. Posebno uzivamo u druzenjima sa gradjanstvom a rado se odazivamo na svaki humanitarni poziv</p></div>
-                <a href="aktuelnosti.html"><button class="btn btn-default btn-lg">Saznaj vise o nasim aktivnostima</button></a>
-              </div>
-    
+<body id="naslovna" class="kontejner">
+    <div class ="row text-center kontejner">
+        <div class="col-sm kontejner">
+            <div class="container text-center kontejner">
+                <h1 class ="text-center glavni_naslov">GORSKA SLUZBA SPASAVANJA <br>NOVI GRAD SARAJEVO</h1>
             </div>
         </div>
-        
-   
-    <div id="activities" class="container-fluid text-center">
-            <h2>USLUGE I AKTIVNOSTI</h2>
-            <h4>Dijapazon nasih usluga</h4>
-            <br>
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="img/mountain-icon.png" height="40px" width="40px" alt="mountain">
-                <h4>PLANINSKI USLOVI</h4>
-                <p>Specijalizovani za spasavanje na brdsko-planinskom terenu</p>
-              </div>
-              <div class="col-sm-4">
-                <img src="img/urban-icon.png" height="40px" width="40px" alt="urban">
-                <h4>URBANI USLOVi</h4>
-                <p>Specijalizovani za spasavanje u urbanim uslovima(naselja, gradovi)</p>
-              </div>
-              <div class="col-sm-4">
-                    <img src="img/FPS-icon.png"  height="40px" width="40px" alt="cpr" >
-                    <h4>CPR</h4>
-                    <p>Obuceni za pruzanje, trijazu i prevoz povrijedjenih osoba</p>
-                  </div>
-              </div>
-              <br><br>
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="img/trained-icon.png"  height="40px" width="40px" alt="trained" >
-                <h4>OBUCENI</h4>
-                <p>Svi nasi clanovi su prosli niz rigoroznih treninga i obuka te su certificirani od nadleznih tijela.</p>
-              </div>
-              <div class="col-sm-4">
-                <img src="img/internationa-icon.png" height="40px" width="40px" alt="international" >
-                <h4>MEDJUNARODNE AKTIVNOSTI</h4>
-                <p>Bilo da je rijec o treningu ili stvarnoj akciji, nasi clanovi su kako dragi gosti, tako i vrijedni domacini</p>
-              </div>
-              <div class="col-sm-4">
-                <img src="img/comunity-icon.png" height="40px" width="40px" alt="comunity">
-                <h4>ORJENTIRANI ZAJEDNICI</h4>
-                <p>Ucestvujemo u mnogobrojnim akcijama pomoci stanovnistu te organizujemo redovna druzenja i humanitarne akcije</p>
-              </div>
-            </div>
+        <div class="col-sm">
+        <div class="container text-center image_center">
+            <img class="container text-center image_center" src="./img/crveni_logo.jpg" alt="crveni_logo">
+        </div>
+        </div>
+        <div class="col-sm">
+        <div class="container text-center">
+            <h1 class ="text-center glavni_naslov">MOUNTAIN RESCUE SERVICE OF <br>NOVI GRAD SARAJEVO</h1>
+        </div>
+        </div>
+        <div class="col-sm">
+          <div class= "container text-center">
+              <a href="pocetna.html"><img src="./img/bosnia-and-herzegovina-flag-icon-256.png" alt="bosanska_zastava"></a>
+              <a href=""><img src="./img/UKUS-flag.png" alt="us_uk_flag"></a>
           </div>
-    <div id="cause" class="container-fluid text-center bg-grey">
-        <h2>Znacajne aktivnosti</h2>
-                <h4>Od mnogobrojnih aktivnosti, izdvojili bi sljedece </h4>
-                <div class="row text-center">
-                  <div class="col-sm-4">
-                    <div class="thumbnail">
-                      <img id="img1Aktivnosti" src="img/TIKA Vjezba.jpg"  alt="Tika-Vjezba">
-                      <div class="overlay">
-                        <div class="text">Dana x-x, 2018 godine, clanovi GSS Novi Grad Sarajevo i CZ FBiH su uz saradnju sa TIKA i ANSAROM(Turski GSS) sproveli trodnevnu obuku na temu "xx tema" Na kraju ove svecanosti, dodjeljeni su i odredjeni certifikati</div>
-                      </div>
-                      <p><strong>Bjelasnica</strong></p>
-                      <p>Obuka sa TIKA i ANSAROM</p>
+        <div class="col-md">
+            <div class="container text-center">
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal" onclick="getLocation();"><strong>Kontakt u hitnim slucajevima<br>Emergency contact</strong></button>
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Treba Vam hitan kontakt?<br><em>Case of emergency?</em></h4>
                     </div>
-                  </div>
-                  <div class="col-sm-3">
-                    <div class="thumbnail">
-                      <img src="img/Potraga1.jpg" alt="potraga-1">
-                        <div class="overlay">
-                          <div class="text">Pripadnici GSS Novi Grad Sarajevo su aktivno ucestovali u potrazi za tjelima tragicno nastradalih mladica u Sarajevu</div>
-                        </div>
-                      <p><strong>Sarajevo</strong></p>
-                      <p>Potraga za tragicno nastradalim mladicima</p>
+                    <div class="modal-body">
+                     <p id="modalText">Nalazite se u vanrednoj situaciji, situaciji gdje je Vama ili nekom u Vasoj okolini ugrozen zivot.<br> <strong>Pozovite GSS Novi Grad Sarajevo +38762112700 </strong> ili neku od hitnih sluzbi <strong>122-Policija, 124-Hitna pomoc</strong>
+                         Dok cekate pomoc, molimo Vas da slijedite sljedece upute :<br>
+                         <em>Are you in a case of the emergency? You or someone from your company is injured? <strong>Call MRS Novi Grad Sarajevo +38762112700</strong> or some of the ER services<strong>122 Police, 124 ER</strong>While waiting for the help, follow the instructions:</em>
+                         <ul id="modalTextList">
+                             <li>Ostanite pribrani i ne panicite. Panikom samo pogorsavata situaciju.</li>
+                             <li><em>Stay calm! Don't panic, you will make things only worse!</em></li> 
+                             <li>Pri stupanju u kontakt obavezno dati licne podatke, opisati teren i uslove u kojima se nalazite, zadnju poznatu lokaciju</li>
+                             <li><em>Give follow informations to the operator: Name, last name, nationalty, age, last known location, weather and terrain conditions.</em></li>
+                             <li>Ukoliko ste povrijedjeni pokusajte mirovati, kontrolisite disanje i ako je moguce pruzite prvu pomoc.Ukoliko je neko iz Vase okoline povrijedjen, pruzite prvu pomoc ali vodite racuna o svojoj bezbijednosti.</li>
+                             <li><em>If you are injured, try keep calm, control your breathing and if possible, provide CPR. If someone fro your group is injured, try preform CPR but make sure to keep your own safety first!</em></li>
+                             <li>Racionalno koristite raspolozive resurse poput hrane i pica. Racionalno koristite mobilni telefon kako bi Vasa baterija duze trajala te kako biste imali stalni kontakt sa hitnim sluzbama</li>
+                             <li><em>Be rational with resources such as food, drink and mobile-phone battery.</em></li>
+                             <li>Ukoliko je zbog odredjenih uslova vidljivost losa, pokusajte istaknuti svoj polozaj na neki nacin, vodeci pri tome racuna o vlastitoj bezbijednosti</li>
+                             <li><em>If you are in a low-visibility area, try to make yourself visible for SaR teams but make sure you keep safety first.</em></li>
+                             <li>Ne gubite nadu. Ukoliko ste nas kontaktirali, <strong>SIGURNO DOLAZIMO PO VAS I SRECNO SE VRACATE KUCI!</strong></li>
+                             <li><em>Don't lose your hope. If you manage to contact us be sure that<strong> WE ARE COMMING FOR YOU AND YOU WILL SOON BE ON YOUR WAY HOME SAFE!</strong></em></li>
+                         </ul>
+                     </p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori  <em>Close</em></button>
+                     </div>
                     </div>
-                  </div>
-                  <div class="col-sm-3">
-                    <div class="thumbnail">
-                      <img src="img/mars-mira-2017.jpg" alt="Mars mira">
-                      <div class="overlay">
-                        <div class="text">Pripadnici GSS Novi Grad Sarajevo su aktivno ucestovali u obezbjedjenju Marsa mira u Srebrenici</div>
-                      </div>
-                      <p><strong>Srebrenica</strong></p>
-                      <p>Podrska i obezbjedjenje aktivnosti Mars mira u Srebrenici 2017 god.</p>
                     </div>
-                  </div>
-                  <div class="col-sm-3">
-                        <div class="thumbnail">
-                            <img src="img/certifikacija-gorski-medicinar.jpg" alt="gorskiMedicinar">
-                            <div class="overlay">
-                              <div class="text">U tom i tom mjesecu 2018, nasi pripadnici su ucestvovali u specijalistickoj obuci pod nazivom "gorska medicina" i tom prilikom smo postali bogatiji za jos 3 certificirana gorska medicinara. </div>
-                            </div>
-                              <p><strong>Mostar</strong></p>
-                              <p>Certifikacija za gorskog spasioca</p>
-                            </div>
-                          </div>
-                  <div class="col-sm-3">
-                        <div class="thumbnail">
-                          <img src="img/rad-sa-najmladjim.jpg" alt="najmladji1">
-                          <div class="overlay">
-                            
-                            <div class="text">Ovo je samo test i dobro ide za sad</div>
-                          </div>
-                          <p><strong>Mojmilo</strong></p>
-                          <p>Rad sa najmladjim</p>
-                        </div>
-                      </div>
-                    <div class="col-sm-3">
-                        <div class="thumbnail">
-                            <img src="img/rad-sa-najmladjim1.jpg" alt="najmladji2">
-                            <div class="overlay">
-                              <div class="text">Ovo je samo test i dobro ide za sad verzija 2</div>
-                            </div>
-                              <p><strong>Hipodrom Sarajevo</strong></p>
-                              <p>Rad sa najmladjim</p>
-                            </div>
-                        </div>
-                     <div class="col-sm-3">
-                        <div class="thumbnail">
-                            <img src="img/rad-sa-najmladjim2.jpg" alt="najmladji3">
-                            <div class="overlay">
-                              <div class="text">Ovo je samo test i dobro ide za sad verzija 3</div>
-                            </div>
-                                <p><strong>Sarajevo</strong></p>
-                                <p>Rad sa najmladjim</p>
-                        </div>
                     </div>
-              </div>
-        <div id="contact" class="container-fluid bgimg-5 font-white">
-                <h2 class="text-center">Kontakt informacije</h2>
-                <div class="row">
-                  <div class="col-sm-5">
-                    <p>Kontaktirajte nas</p>
-                    <p><span class="glyphicon glyphicon-map-marker"></span> Novi Grad Sarajevo</p>
-                    <p><span class="glyphicon glyphicon-phone"></span>062 112 700</p>
-                    <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> 
-                  </div>
-                  <div class="col-sm-7">
-                    <div class="row">
-                      <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Ime" type="text" required>
-                      </div>
-                      <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                      </div>
-                    </div>
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Komentar" rows="5"></textarea><br>
-                    <div class="row">
-                      <div class="col-sm-12 form-group">
-                        <button class="btn btn-default pull-right" type="submit">Posalji</button>
-                      </div>
-                    </div> 
-                  </div>
-                </div>
-              </div>
-        <nav class="navbar navbar-default navbar-fixed-top">
-                    <div class="container">
-                      <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span> 
-                        </button>
-                        <a class="navbar-brand" href="#myPage"><img src="img/logo-min.jpg" height="30px" width="30px"></a>
-                      </div>
-                      <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav navbar-right">
-                          <li><a href="aboutUs.html">O NAMA</a></li>
-                          <li><a href="aktuelnosti.html">AKTUELNOSTI</a></li>
-                          <li><a href="gallery.html">GALERIJA</a></li>
-                          <li><a href="drugi-o-nama.html">DRUGI O NAMA</a></li>
-                          <li><a href="contact.html">KONTAKT</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>    
-    <footer class="container-fluid text-center">
-        <a href="#myPage" title="To Top">
-                <span class="glyphicon glyphicon-chevron-up"></span>
-                    </a>
-                    <p>Made by Adi </p> 
-        </footer>
-<script src="bundle.js" text="text/javascript"></script>
+        </div>       
+      </div>  
+    </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>

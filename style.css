@@ -268,3 +268,27 @@ background-size: cover;}
   .card button:hover {
     opacity: 0.7;
   }
+  #naslovna{
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-color: #EC1A23;
+  }
+  .kontejner{
+      width:100%;
+      padding:0 auto;
+      margin:auto;
+      justify-content: center;
+      align-items: center;
+  }
+.glavni_naslov{
+    color:white;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image_center{
+    align-content: center;
+    justify-content: center;
+    width:auto;
+    height:auto;
+}
