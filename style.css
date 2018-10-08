@@ -276,8 +276,10 @@ background-size: cover;}
   }
   .kontejner{
       width:100%;
-      padding:0 auto;
-      margin:auto;
+      padding-left: auto;
+      padding-right:auto;
+      margin-left:auto;
+      margin-right: auto;
       justify-content: center;
       align-items: center;
   }
@@ -289,6 +291,6 @@ background-size: cover;}
 .image_center{
     align-content: center;
     justify-content: center;
-    width:auto;
-    height:auto;
+    width:60%;
+    height:60%;
 }
