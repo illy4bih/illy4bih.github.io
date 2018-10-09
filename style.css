@@ -227,6 +227,9 @@ h1{
     color:whitesmoke;
     background-color:rgba(159, 167, 246,0.5);
 }
+.font-black{
+    color:black;
+}
 .pozadina-za-text{
     background-color:rgba(159, 167, 246,0.8);
     backface-visibility: visible;
