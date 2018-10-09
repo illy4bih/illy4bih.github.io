@@ -114,4 +114,12 @@ function showError(error) {
             break;
     }
 }
+function sendMail() {
+  var link = "mailto:avrabac@gmail.com"
+  + "&subject=" + escape("This is my subject")
+  + "&body=" + escape(document.getElementById('forma').value);
+;
+
+window.location.href = link;
+}
 

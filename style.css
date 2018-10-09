@@ -35,7 +35,6 @@ h1{
     border: none;
     border-radius: 0;
 }
-
 .thumbnail img {
     width: 100%;
     height: 100%;
@@ -45,52 +44,51 @@ h1{
     background-image: none;
     color: red;
 }
-    .carousel-indicators li {
-        border-color: red;
-    }
+.carousel-indicators li {
+    border-color: red;
+}
     
-    .carousel-indicators li.active {
-        background-color: red;
-    }
+.carousel-indicators li.active {
+    background-color: red;
+}
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
     
-    .item h4 {
-        font-size: 19px;
-        line-height: 1.375em;
-        font-weight: 400;
-        font-style: italic;
-        margin: 70px 0;
-    }
-    
-    .item span {
-        font-style: normal;}
+.item span {
+    font-style: normal;}
  
- .overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            transition: .5s ease;
-            background-color: rgb(19, 22, 150);
-          }
+.overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;          
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(19, 22, 150);      
+}
           
 .thumbnail:hover .overlay {
         opacity: 0.9;
           }
           
 .text {
-            color: white;
-            font-size: 1em;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-60%, -60%);
-            text-align: center;
-          }
+        color: white;
+        font-size: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-60%, -60%);            
+        text-align: center;
+}
 #facebookLink{
     text-decoration: none;
     color:white;
@@ -210,12 +208,12 @@ h1{
     min-height: 100%;
 }
 .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5{
-position: relative;
-opacity: 0.85;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;}
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 
 .caption-paralax {
     position: absolute;
@@ -248,7 +246,7 @@ background-size: cover;}
     font-family: arial;
   }
   
-  .price {
+.price {
     color: grey;
     font-size: 22px;
   }
@@ -269,19 +267,19 @@ background-size: cover;}
     opacity: 0.7;
   }
   #naslovna{
-      display:flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      background-color: #EC1A23;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #EC1A23;
   }
-  .kontejner{
-      width:100%;
-      padding-left: auto;
-      padding-right:auto;
-      margin-left:auto;
-      margin-right: auto;
-      justify-content: center;
-      align-items: center;
+.kontejner{
+    width:100%;
+    padding-left: auto;
+    padding-right:auto;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
   }
 .glavni_naslov{
     color:white;
@@ -300,7 +298,7 @@ background-size: cover;}
     padding: 0 5px;
   }
   
-  .row {margin: 0 -5px;}
+.row {margin: 0 -5px;}
   
   /* Clear floats after the columns */
   .row:after {
@@ -326,28 +324,29 @@ background-size: cover;}
     background-color: #EC1A23;
     color: white;
   }
-  .fa {font-size:50px;}
-  .navbar-logo{
-      float:left;
-      padding:2% 2%;
-      height: 40px;
+.fa {
+    font-size:50px;}
+.navbar-logo{
+    float:left;
+    padding:2% 2%;
+  height: 40px;
   }
-  .pozicija-sredina{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      padding-right: auto;
-      padding-left: auto;
-      padding-top:2%;
+.pozicija-sredina{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top:2%;
   }
-  .footer{
-      height:1%;
-      margin-top:5px;
-      padding-top: 10px;
+.footer{
+    height:1%;
+    margin-top:5px;
+    padding-top: 10px;
   }
-  .footer-text{
-      padding-top:10px;
-      justify-content: center;
-      font-size: 10px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.footer-text{
+    padding-top:10px;
+    justify-content: center;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
