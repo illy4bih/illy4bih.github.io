@@ -225,20 +225,19 @@
                   </div>
                   <div class="col-sm-7">
                     <div class="row" id="forma">
-                      <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Ime" type="text" required>
+                        <form method="POST" action="https://formspree.io/avrabac@gmail.com">
+                          <div class="col-sm-10 form-group">
+                            <input type="email" name="email" placeholder="Vasa e-mail adresa">
+                          </div>
+                          <div class="col-sm-10 form-group">
+                            <textarea name="message" placeholder="Vasa poruka"></textarea>
+                          </div>
+                          <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Posalji</button>
+                          </div>
+                        </form>
                       </div>
-                      <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                      </div>
-                    </div>
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Komentar" rows="5"></textarea><br>
-                    <div class="row">
-                      <div class="col-sm-12 form-group">
-                        <button class="btn btn-default pull-right" onclick="sendMail();">Posalji</button>
-                      </div>
-                    </div> 
-                  </div>
+                    </div>  
                 </div>
               </div>
         <nav class="navbar navbar-default navbar-fixed-top">
