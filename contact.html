@@ -88,11 +88,6 @@
                            <div class="col-sm-12 form-group">                      
                              <textarea class="form-control" name="text" placeholder="Unesite poruku"></textarea>
                           </div> 
-
-
-                      
-
-                  
                       <!-- to append extra fields, use the extra_ prefix.
                           Entries will be appended to your message body. -->
                      <!-- <input type="text" name="extra_phone_number"
@@ -100,20 +95,19 @@
                                   <div class="col-sm-12 form-group">
                                     <input id="submit_form" type="submit" class="btn btn-default pull-right" value="Posalji" />
                                   </div>
-                      
-
-                  </form>
+                        </form>
+                    </div>
                   </div>
-                  </div>
-                       
-                  <!-- optional, prevents the submit button from being pressed more than once -->
                   <script>
                       var submitButton = document.getElementById("submit_form");
                       var form = document.getElementById("email_form");
                       form.addEventListener("submit", function (e) {
                           setTimeout(function() {
-                              submitButton.value = "Sending...";
+                              
+                              submitButton.value = "Saljem...";
                               submitButton.disabled = true;
+                              e.preventDefault();
+                              $(this).get(0).reset();
                           }, 1);
                       });
                   </script> 
