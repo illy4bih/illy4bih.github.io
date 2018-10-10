@@ -1,5 +1,5 @@
 .jumbotron { 
-    background-color: rgb(19, 22, 150);
+    background-color: #EC1A23;
     color: #ffffff;
     text-align: center;
     padding: 100px 25px;
@@ -42,14 +42,21 @@ h1{
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: red;
+    color: #EC1A23;
+}
+.carousel-indicators{
+    padding-left: 0;
+    padding-right: 0;
+    position:relative;
+    margin-top: 20px;
 }
 .carousel-indicators li {
-    border-color: red;
+    border-color: navy;
+    position:relative;
 }
     
 .carousel-indicators li.active {
-    background-color: red;
+    background-color: #EC1A23;
 }
 .item h4 {
     font-size: 19px;
@@ -207,7 +214,11 @@ h1{
     background-image: url("./img/bgimg-5.jpg");
     min-height: 100%;
 }
-.bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5{
+.bgimg-6 {
+    background-image: url("./img/bgimg-6.jpg");
+    min-height: 100%;
+}
+.bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5,.bgimg-6{
     position: relative;
     opacity: 0.85;
     background-attachment: fixed;
@@ -259,7 +270,7 @@ h1{
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: red;
+    background-color: #EC1A23;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -292,13 +303,32 @@ h1{
 .image_center{
     align-content: center;
     justify-content: center;
-    width:60%;
-    height:60%;
+    width:55%;
+    height:55%;
+}
+@media screen and (max-width: 768px) {
+    .image_center{
+        align-content: center;
+        justify-content: center;
+        width:90%;
+        height:90%;
+    }
+    .glavni_naslov{
+        color:white;
+        font-size: 1.4em;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .zastavica{
+        width:125px;
+        height:125px;
+    }
 }
 .column {
     float: left;
     width: 25%;
-    padding: 0 5px;
+    padding: 2% 5px;
+
   }
   
 .row {margin: 0 -5px;}
@@ -352,4 +382,45 @@ h1{
     justify-content: center;
     font-size: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .blinkajuci-button {
+    background-color: #004A7F;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+  }
+  @-webkit-keyframes glowing {
+    0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  }
+  
+  @-moz-keyframes glowing {
+    0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  }
+  
+  @-o-keyframes glowing {
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  }
+  
+  @keyframes glowing {
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
   }
