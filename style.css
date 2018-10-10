@@ -31,7 +31,8 @@ h1{
     width:200px;
 }
 .thumbnail {
-    padding: 0 0 15px 0;
+    height: 450px;
+    padding: 10px 0 15px 0;
     border: none;
     border-radius: 0;
 }
