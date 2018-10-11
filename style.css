@@ -298,14 +298,19 @@ h1{
   }
 .glavni_naslov{
     color:white;
+    font-size: 2em;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .image_center{
     align-content: center;
     justify-content: center;
-    width:55%;
-    height:55%;
+    width:50%;
+    height:50%;
+}
+.zastavica{
+    width:125px;
+    height:125px;
 }
 @media screen and (max-width: 768px) {
     .image_center{
@@ -321,8 +326,8 @@ h1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .zastavica{
-        width:125px;
-        height:125px;
+        width:75px;
+        height:75px;
     }
 }
 .column {
@@ -447,4 +452,7 @@ h1{
     float:right;
     width:40%;
     height:40%;
+}
+#naslovna{
+    
 }
