@@ -429,3 +429,22 @@ h1{
     color: white;
     background-color: #EC1A23;
   }
+.polovina{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+    float: left;
+    width: 46%;
+    padding: 2%;
+  }
+.slikica_lijevo{
+    float:left;
+    width:40%;
+    height:40%;
+}
+.slikica_desno{
+    float:right;
+    width:40%;
+    height:40%;
+}
